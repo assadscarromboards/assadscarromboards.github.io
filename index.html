@@ -1,4 +1,244 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Assad's Carrom Boards</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Finished Boards</a>
+            <a href="designs.html">Designs</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <div class="placeholder-carousel-image">
+                        <span>Premium Tournament Board</span>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3>Professional Tournament Grade</h3>
+                        <p>Official competition board with precision craftsmanship</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <div class="placeholder-carousel-image">
+                        <span>Custom Family Board</span>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3>Custom Engraved Board</h3>
+                        <p>Personalized with family name and unique design</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <div class="placeholder-carousel-image">
+                        <span>Vintage Restoration</span>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3>Restored Vintage Board</h3>
+                        <p>1960s board brought back to its original glory</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <div class="placeholder-carousel-image">
+                        <span>Rosewood Luxury</span>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3>Premium Rosewood Board</h3>
+                        <p>Handcrafted from solid rosewood with brass details</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <div class="placeholder-carousel-image">
+                        <span>Artistic Design</span>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3>Artistic Design Board</h3>
+                        <p>Featuring intricate patterns and gold inlays</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="carousel-btn next-btn" onclick="changeSlide(1)">&#10095;</button>
+
+            <div class="carousel-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <div class="placeholder-image">
+            <span>Your Photo Here</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <h2>About Me</h2>
+          <div class="about-text">
+            <p>Welcome to Assad's Carrom Boards! I'm Assad, a passionate craftsman dedicated to creating high-quality carrom boards that bring families and friends together.</p>
+
+            <p>With years of experience in woodworking and a deep love for the traditional game of carrom, I specialize in handcrafting premium boards using the finest materials. Each board is meticulously designed to meet professional standards while maintaining the authentic feel that makes carrom such a beloved game.</p>
+
+            <div class="skills-section">
+              <h3>What I Offer:</h3>
+              <ul>
+                <li>Custom handcrafted carrom boards</li>
+                <li>Professional tournament-grade boards</li>
+                <li>Board restoration and repair services</li>
+                <li>Premium accessories and playing pieces</li>
+                <li>Personalized designs and engravings</li>
+              </ul>
+            </div>
+
+            <p>Whether you're a casual player looking for family fun or a serious competitor seeking tournament-quality equipment, I'm here to craft the perfect carrom board for your needs. Every piece is made with attention to detail and a commitment to excellence.</p>
+
+            <div class="skills-section">
+              <h3>My Journey:</h3>
+              <p>My passion for carrom began in childhood, playing with family and friends. Over the years, I noticed the importance of having a quality board that enhances the playing experience. This led me to start crafting my own boards, combining traditional techniques with modern precision.</p>
+
+              <p>Today, I'm proud to serve carrom enthusiasts across the region, providing boards that not only meet competitive standards but also become cherished centerpieces for family gatherings and tournaments alike.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What My Customers Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"Assad crafted the most beautiful carrom board for our family. The quality is exceptional and it's become the centerpiece of our game room. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <strong>- Sarah Johnson</strong>
+                        <span>Family Customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"I needed a tournament-grade board for our local carrom club. Assad delivered exactly what we needed - professional quality with perfect precision. Outstanding work!"</p>
+                    <div class="testimonial-author">
+                        <strong>- Michael Chen</strong>
+                        <span>Tournament Organizer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"Assad restored my grandfather's vintage carrom board from the 1950s. He brought it back to life while preserving its character. Amazing craftsmanship!"</p>
+                    <div class="testimonial-author">
+                        <strong>- Priya Patel</strong>
+                        <span>Restoration Customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"The custom engraving on our board is absolutely stunning. Assad took our vision and made it even better than we imagined. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <strong>- David Rodriguez</strong>
+                        <span>Custom Design Customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"Professional service from start to finish. Assad explained every detail and delivered on time. The board quality is superb - feels like it will last generations."</p>
+                    <div class="testimonial-author">
+                        <strong>- Lisa Thompson</strong>
+                        <span>Premium Board Customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-content">
+                    <p>"I've been playing carrom for 30 years and this is hands down the best board I've ever owned. The craftsmanship and attention to detail is incredible."</p>
+                    <div class="testimonial-author">
+                        <strong>- Ahmed Hassan</strong>
+                        <span>Carrom Enthusiast</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="projects-footer">
+        <h3>Interested in a Custom Board?</h3>
+        <p>Each board is unique and tailored to your specific needs. Whether you need a tournament-grade board, a family
+            heirloom, or something completely custom, I'd love to discuss your project.</p>
+        <a href="contact.html" class="contact-button">Get in Touch</a>
+    </div>
+
+    <script>
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const dots = document.querySelectorAll('.dot');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            // Hide all slides
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            // Show current slide
+            slides[index].classList.add('active');
+            dots[index].classList.add('active');
+        }
+
+        function changeSlide(direction) {
+            currentSlideIndex += direction;
+
+            if (currentSlideIndex >= totalSlides) {
+                currentSlideIndex = 0;
+            } else if (currentSlideIndex < 0) {
+                currentSlideIndex = totalSlides - 1;
+            }
+
+            showSlide(currentSlideIndex);
+        }
+
+        function currentSlide(index) {
+            currentSlideIndex = index - 1;
+            showSlide(currentSlideIndex);
+        }
+
+        // Auto-advance carousel every 5 seconds
+        setInterval(() => {
+            changeSlide(1);
+        }, 5000);
+
+        // Initialize carousel on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            showSlide(0);
+        });
+    </script>
+</body>
+
+</html>
